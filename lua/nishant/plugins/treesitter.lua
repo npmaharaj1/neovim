@@ -1,4 +1,4 @@
-eturn {
+return {
 	{
 		'nvim-treesitter/nvim-treesitter',
 		config = function()
