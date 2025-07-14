@@ -11,8 +11,8 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("n", "J", "mzJ`z")
 
 -- page up and down while staying in middle
-vim.keymap.set("n", "U", "<C-d>zz")
-vim.keymap.set("n", "M", "<C-u>zz")
+vim.keymap.set("n", "M", "<C-d>zz")
+vim.keymap.set("n", "U", "<C-u>zz")
 
 -- search while staying in middle
 vim.keymap.set("n", "n", "nzzzv")
