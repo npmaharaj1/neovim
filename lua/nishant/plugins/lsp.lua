@@ -22,7 +22,7 @@ return {
 	config = function()
 		require("mason").setup({})
 		require("mason-lspconfig").setup({
-			ensure_installed = { "pyright", "html", "cssls", "quick_lint_js", "bashls", "ast_grep", "lua_ls", "vimls", "marksman", "yamlls", "nil_ls" },
+			ensure_installed = { "pyright", "html", "cssls", "quick_lint_js", "bashls", "ast_grep", "vimls", "marksman", "yamlls", "nil_ls" },
 			automatic_enable = true,
 		})
 
