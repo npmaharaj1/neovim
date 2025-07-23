@@ -30,14 +30,11 @@ return {
 
       handlers = {
         function(server_name) -- default handler (optional)
-          require("lspconfig")[server_name].setup {
-            capabilities = capabilities
-          }
+          require("lspconfig")[server_name].setup{}
         end,
 
         ["lua_ls"] = function()
           require("lspconfig").lua_ls.setup {
-            capabilities = capabilities,
             settings = {
               Lua = {
                 format = {
@@ -53,20 +50,7 @@ return {
         end,
 
         ["jdtls"] = function()
-          require("lspconfig").jdtls.setup {
-            capabilities = capabilities,
-            settings = {
-              java = {
-                format = {
-                  enable = true;
-                  defaultConfig = {
-                    indent_style = "space",
-                    indent_size = "4",
-                  }
-                },
-              }
-            }
-          }
+          require("lspconfig").jdtls.setup {}
         end,
       }
 		})
