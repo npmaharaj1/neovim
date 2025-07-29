@@ -44,3 +44,5 @@ vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><
 -- quick chmod
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod u+x %<CR>", { silent = true })
 
+-- Definition
+vim.keymap.set("n", "<leader>d", ":lua vim.lsp.buf.hover()<CR>", { noremap = true, silent = true})
