@@ -11,7 +11,7 @@ return {
                 ensure_installed = {
                     "python", "java", "html", "css",
                     "javascript", "bash", "c", "lua", "vim", "vimdoc", "query",
-                    "markdown", "markdown_inline",
+                    "markdown", "markdown_inline", "nix",
                 },
 
                 -- Install parsers synchronously (only applied to `ensure_installed`)

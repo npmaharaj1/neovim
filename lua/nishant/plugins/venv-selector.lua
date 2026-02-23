@@ -6,7 +6,7 @@ return {
     "mfussenegger/nvim-dap-python", --optional
     {
       "nvim-telescope/telescope.nvim",
-      branch = "main",
+      branch = "master",
       dependencies = {
         "nvim-lua/plenary.nvim"
       }
