@@ -27,7 +27,24 @@ return {
             -- }
         }
         require("mason-lspconfig").setup({
-            ensure_installed = { "pyright", "html", "cssls", "quick_lint_js", "bashls", "jdtls", "vimls", "marksman", "yamlls", "nil_ls", "lua_ls", "ts_ls", "clangd", "dockerls", "arduino_language_server" },
+            ensure_installed = {
+                "pyright",
+                "html",
+                "cssls",
+                "quick_lint_js",
+                "bashls",
+                "jdtls",
+                "vimls",
+                "marksman",
+                "yamlls",
+                "nil_ls",
+                "lua_ls",
+                "ts_ls",
+                "clangd",
+                "dockerls",
+                "arduino_language_server",
+                "codebook",
+            },
             automatic_enable = true,
 
             handlers = {

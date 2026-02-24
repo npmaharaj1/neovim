@@ -8,6 +8,7 @@ return {
         python = { "isort", "black", "ast-grep" },
         java = { "ast-grep" },
         javascript = { "prettierd", "prettier", stop_after_first = true },
+        haskell = { "fourmolu" },
       },
     })
   end
