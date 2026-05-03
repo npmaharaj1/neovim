@@ -37,7 +37,7 @@ return {
                 "vimls",
                 "marksman",
                 "yamlls",
-                "nil_ls",
+             -- "nil_ls",
                 "lua_ls",
                 "ts_ls",
                 "clangd",
